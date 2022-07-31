@@ -20,7 +20,7 @@ function App() {
           return (
             <div key={key} className="article">
               <h2>{news.title}</h2>
-              <img className="img" src={news.imageUrl} />
+              <img alt="news_image" className="img" src={news.imageUrl} />
               <p>{news.summary}</p>
               <h3>{news.publishedAt}</h3>
               <small
